@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+/* Define custom colors inside the @layer directive */
+@layer base {
+  :root {
+    --color-primary: #8873ef;
+    --color-heading: #33658A;
+    --color-small-text: #193256;
+  }
+}
+
+/* Extend Tailwind with custom classes */
+@layer components {
+  .text-primaryColor {
+    color: var(--color-primary);
+  }
+  .text-headingColor {
+    color: var(--color-heading);
+  }
+  .text-smallTextColor {
+    color: var(--color-small-text);
+  }
+  .bg-primaryColor {
+    background-color: var(--color-primary);
+  }
+}
