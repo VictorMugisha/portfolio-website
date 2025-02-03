@@ -21,9 +21,9 @@ export default function Services() {
 
         <div className="flex flex-col justify-center sm:py-12">
           <div className="w-full py-6 px-4 sm:max-w-xl sm:mx-auto sm:px-0">
-            <div className="relative text-gray-700 antialiased text-sm font-semibold">
+            <div className="relative text-gray-700 antialiased text-sm font-semibold flex flex-col gap-10">
               {/* Vertical line in the center */}
-              <div className="hidden absolute w-1 sm:block bg-indigo-300 h-full left-1/2 -translate-x-1/2"></div>
+              <div className="hidden absolute w-1 sm:block bg-indigo-300 h-full left-1/2 -translate-x-1/2 mx-10"></div>
 
               {/* Left Card */}
               <div className="mt-10 sm:mt-0 sm:mb-16">
